@@ -1,0 +1,16 @@
+body {
+	font-family: Lato, "Microsoft Yahei", sans-serif;
+	color: #333333;
+	background-color: snow;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* { box-sizing: border-box; }
+
+a {
+	color: $mainOrange;
+}
