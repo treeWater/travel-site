@@ -8,6 +8,7 @@
 
 	&__text-content {
 		position: absolute;
+		padding-top: 88px;
 		top: 50%;
 		left: 0;
 		width: 100%;
@@ -17,6 +18,11 @@
 		-ms-transform: translateY(-50%);
 		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
+
+		@mixin atMedium {
+			padding-top: 60px;
+		}
+
 	}
 
 	&__title {
